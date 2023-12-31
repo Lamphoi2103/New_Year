@@ -313,7 +313,7 @@ a.author {
 
     40% {
         right: 50%;
-        margin-right: -130px;
+        margin-right: -160px;
     }
 
     50% {
@@ -355,6 +355,16 @@ a.author {
 @keyframes vai_2016 {
     0% {
         top: 50%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+@keyframes vai_2024 {
+    0% {
+        top: 56%;
     }
 
     100% {
@@ -876,11 +886,11 @@ body {
 
     span.seis {
         position: absolute;
-        top: 56%;
+        top: 58%;
         right: 50%;
         margin-right: -70px;
         /* margin-right: 300px; */
-        /* animation: vai_2016 5s ease-in-out 5s forwards; */
+        animation: vai_2024 5s ease-in-out 5s forwards;
     }
 
     span.sete {
