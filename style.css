@@ -318,7 +318,7 @@ a.author {
 
     50% {
         right: 50%;
-        margin-right: -110px;
+        margin-right: -85px;
         top: 50%;
     }
 
@@ -347,7 +347,7 @@ a.author {
     }
 
     100% {
-        transform: rotate(-180deg);
+        transform: rotate(-150deg);
         width: 40px;
     }
 }
@@ -364,7 +364,7 @@ a.author {
 
 @keyframes vai_2024 {
     0% {
-        top: 56%;
+        top: 58%;
     }
 
     100% {
@@ -925,7 +925,7 @@ body {
         transform-origin: left top;
         position: absolute;
         top: 20px;
-        left: 10px;
+        left: -5px;
         z-index: -1;
         animation: entrega_balao1 1s ease-in-out 4s;
     }
